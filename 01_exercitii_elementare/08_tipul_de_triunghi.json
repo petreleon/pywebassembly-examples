@@ -25,6 +25,22 @@
             "expected": "\"Nu este triunghi\""
         },
         {
+            "input": "tip_triunghi(10, 1, 2)",
+            "expected": "\"Nu este triunghi\""
+        },
+        {
+            "input": "tip_triunghi(1, 10, 2)",
+            "expected": "\"Nu este triunghi\""
+        },
+        {
+            "input": "tip_triunghi(0, 10, 10)",
+            "expected": "\"Nu este triunghi\""
+        },
+        {
+            "input": "tip_triunghi(-5, 10, 10)",
+            "expected": "\"Nu este triunghi\""
+        },
+        {
             "input": "tip_triunghi(100, 100, 100)",
             "expected": "\"Echilateral\""
         },
