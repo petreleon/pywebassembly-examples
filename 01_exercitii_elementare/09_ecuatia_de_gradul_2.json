@@ -1,0 +1,32 @@
+{
+    "id": "ecuatia-de-gradul-2",
+    "title": "Ecuatia de gradul 2",
+    "description": "Se dau a, b, c pentru ax^2 + bx + c = 0.\nCalculeaza delta = b^2 - 4ac.\n- delta > 0: \"Doua solutii reale\"\n- delta == 0: \"O solutie unica\"\n- delta < 0: \"Nicio solutie reala\"",
+    "starterCode": "def rezolva_ecuatie(a, b, c):\n    # Scrie codul tau aici\n    pass",
+    "testCases": [
+        {
+            "input": "rezolva_ecuatie(1, -3, 2)",
+            "expected": "\"Doua solutii reale\""
+        },
+        {
+            "input": "rezolva_ecuatie(1, 2, 1)",
+            "expected": "\"O solutie unica\""
+        },
+        {
+            "input": "rezolva_ecuatie(1, 1, 1)",
+            "expected": "\"Nicio solutie reala\""
+        },
+        {
+            "input": "rezolva_ecuatie(1.0, 4.0, 4.0)",
+            "expected": "\"O solutie unica\""
+        },
+        {
+            "input": "rezolva_ecuatie(1, -5, 6)",
+            "expected": "\"Doua solutii reale\""
+        },
+        {
+            "input": "rezolva_ecuatie(1, 2, 5)",
+            "expected": "\"Nicio solutie reala\""
+        }
+    ]
+}

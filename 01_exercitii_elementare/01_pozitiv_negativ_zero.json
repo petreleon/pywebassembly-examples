@@ -1,0 +1,28 @@
+{
+    "id": "pozitiv-negativ-zero",
+    "title": "Pozitiv, Negativ sau Zero",
+    "description": "Citeste un numar intreg `n`.\n- Daca n > 0, afiseaza \"Pozitiv\".\n- Daca n < 0, afiseaza \"Negativ\".\n- Daca n == 0, afiseaza \"Zero\".",
+    "starterCode": "def verifica_numar(n):\n    # Scrie codul tau aici\n    pass",
+    "testCases": [
+        {
+            "input": "verifica_numar(10)",
+            "expected": "\"Pozitiv\""
+        },
+        {
+            "input": "verifica_numar(-5)",
+            "expected": "\"Negativ\""
+        },
+        {
+            "input": "verifica_numar(0)",
+            "expected": "\"Zero\""
+        },
+        {
+            "input": "verifica_numar(1000000)",
+            "expected": "\"Pozitiv\""
+        },
+        {
+            "input": "verifica_numar(-999999)",
+            "expected": "\"Negativ\""
+        }
+    ]
+}

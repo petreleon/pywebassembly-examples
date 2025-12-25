@@ -1,0 +1,40 @@
+{
+    "id": "sistem-complex-reduceri",
+    "title": "Sistem Complex de Reduceri",
+    "description": "Se da `suma` si tipul `card` (Standard, Silver, Gold), calculati cat este pretul dupa reducere\n- Gold: suma > 500 (-20%), altfel (-10%)\n- Silver: suma > 500 (-10%), altfel (-5%)\n- Standard: suma > 500 (-5%), altfel (Pret intreg)",
+    "starterCode": "def calculeaza_reducere(suma, card):\n    # Scrie codul tau aici\n    pass",
+    "testCases": [
+        {
+            "input": "calculeaza_reducere(1000, \"Gold\")",
+            "expected": "800.0"
+        },
+        {
+            "input": "calculeaza_reducere(1000, \"Silver\")",
+            "expected": "900.0"
+        },
+        {
+            "input": "calculeaza_reducere(1000, \"Standard\")",
+            "expected": "950.0"
+        },
+        {
+            "input": "calculeaza_reducere(100, \"Standard\")",
+            "expected": "100"
+        },
+        {
+            "input": "calculeaza_reducere(500, \"Gold\")",
+            "expected": "450.0"
+        },
+        {
+            "input": "calculeaza_reducere(500, \"Silver\")",
+            "expected": "475.0"
+        },
+        {
+            "input": "calculeaza_reducere(500, \"Standard\")",
+            "expected": "500"
+        },
+        {
+            "input": "calculeaza_reducere(10000, \"Standard\")",
+            "expected": "9500.0"
+        }
+    ]
+}

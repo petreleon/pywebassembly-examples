@@ -1,0 +1,32 @@
+{
+    "id": "cine-este-mai-mare",
+    "title": "Cine este mai mare?",
+    "description": "Se dau doua numere, `a` si `b`.\n- Afiseaza valoarea cea mai mare dintre cele doua.\n- Daca sunt egale, afiseaza \"Numerele sunt egale\".",
+    "starterCode": "def mai_mare(a, b):\n    # Scrie codul tau aici\n    pass",
+    "testCases": [
+        {
+            "input": "mai_mare(10, 20)",
+            "expected": "20"
+        },
+        {
+            "input": "mai_mare(5, 1)",
+            "expected": "5"
+        },
+        {
+            "input": "mai_mare(7, 7)",
+            "expected": "\"Numerele sunt egale\""
+        },
+        {
+            "input": "mai_mare(-5, -10)",
+            "expected": "-5"
+        },
+        {
+            "input": "mai_mare(0, 5)",
+            "expected": "5"
+        },
+        {
+            "input": "mai_mare(1000, 1001)",
+            "expected": "1001"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": "cel-mai-mare-dintre-trei",
+    "title": "Cel mai mare dintre trei numere",
+    "description": "Se dau trei numere: a, b, c.\n- Gaseste si afiseaza maximul folosind doar if/elif/else.",
+    "starterCode": "def maxim_trei(a, b, c):\n    # Scrie codul tau aici\n    pass",
+    "testCases": [
+        {
+            "input": "maxim_trei(1, 2, 3)",
+            "expected": "3"
+        },
+        {
+            "input": "maxim_trei(10, 5, 8)",
+            "expected": "10"
+        },
+        {
+            "input": "maxim_trei(5, 5, 2)",
+            "expected": "5"
+        },
+        {
+            "input": "maxim_trei(-1, -5, -2)",
+            "expected": "-1"
+        },
+        {
+            "input": "maxim_trei(0, 0, 0)",
+            "expected": "0"
+        },
+        {
+            "input": "maxim_trei(10, 10, 5)",
+            "expected": "10"
+        }
+    ]
+}

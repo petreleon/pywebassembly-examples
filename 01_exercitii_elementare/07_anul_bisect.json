@@ -1,0 +1,36 @@
+{
+    "id": "anul-bisect",
+    "title": "Anul Bisect (Leap Year)",
+    "description": "Determina daca un an este bisect.\nReguli:\n- Divizibil cu 4? DA.\n- DAR daca e divizibil cu 100? NU (decat daca e divizibil si cu 400).\nExemplu: 2000 e bisect, 1900 nu e bisect, 2024 e bisect.",
+    "starterCode": "def este_bisect(an):\n    # Scrie codul tau aici\n    pass",
+    "testCases": [
+        {
+            "input": "este_bisect(2000)",
+            "expected": "true"
+        },
+        {
+            "input": "este_bisect(1900)",
+            "expected": "false"
+        },
+        {
+            "input": "este_bisect(2024)",
+            "expected": "true"
+        },
+        {
+            "input": "este_bisect(2100)",
+            "expected": "false"
+        },
+        {
+            "input": "este_bisect(2400)",
+            "expected": "true"
+        },
+        {
+            "input": "este_bisect(2023)",
+            "expected": "false"
+        },
+        {
+            "input": "este_bisect(2020)",
+            "expected": "true"
+        }
+    ]
+}

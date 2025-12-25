@@ -1,0 +1,32 @@
+{
+    "id": "par-sau-impar",
+    "title": "Par sau Impar",
+    "description": "Citeste un numar `n`.\n- Daca restul impartirii la 2 este 0, afiseaza \"Par\".\n- Altfel, afiseaza \"Impar\".",
+    "starterCode": "def par_sau_impar(n):\n    # Scrie codul tau aici\n    pass",
+    "testCases": [
+        {
+            "input": "par_sau_impar(4)",
+            "expected": "\"Par\""
+        },
+        {
+            "input": "par_sau_impar(7)",
+            "expected": "\"Impar\""
+        },
+        {
+            "input": "par_sau_impar(0)",
+            "expected": "\"Par\""
+        },
+        {
+            "input": "par_sau_impar(-4)",
+            "expected": "\"Par\""
+        },
+        {
+            "input": "par_sau_impar(-7)",
+            "expected": "\"Impar\""
+        },
+        {
+            "input": "par_sau_impar(101)",
+            "expected": "\"Impar\""
+        }
+    ]
+}

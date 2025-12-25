@@ -1,0 +1,36 @@
+{
+    "id": "tipul-de-triunghi",
+    "title": "Tipul de Triunghi",
+    "description": "Se dau laturile a, b, c.\nPas 1: Verifica daca e triunghi (suma a doua laturi > a treia).\nPas 2: Daca e triunghi, ce tip este?\n- Echilateral (toate egale)\n- Isoscel (doua egale)\n- Oarecare (nicio latura egala)",
+    "starterCode": "def tip_triunghi(a, b, c):\n    # Scrie codul tau aici\n    pass",
+    "testCases": [
+        {
+            "input": "tip_triunghi(10, 10, 10)",
+            "expected": "\"Echilateral\""
+        },
+        {
+            "input": "tip_triunghi(10, 10, 5)",
+            "expected": "\"Isoscel\""
+        },
+        {
+            "input": "tip_triunghi(3, 4, 5)",
+            "expected": "\"Oarecare\""
+        },
+        {
+            "input": "tip_triunghi(1, 2, 10)",
+            "expected": "\"Nu este triunghi\""
+        },
+        {
+            "input": "tip_triunghi(1, 2, 3)",
+            "expected": "\"Nu este triunghi\""
+        },
+        {
+            "input": "tip_triunghi(100, 100, 100)",
+            "expected": "\"Echilateral\""
+        },
+        {
+            "input": "tip_triunghi(5, 10, 10)",
+            "expected": "\"Isoscel\""
+        }
+    ]
+}

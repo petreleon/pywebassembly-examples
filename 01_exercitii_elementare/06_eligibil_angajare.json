@@ -1,0 +1,36 @@
+{
+    "id": "eligibil-angajare",
+    "title": "Esti eligibil pentru angajare?",
+    "description": "Trebuie `varsta` >= 18 SI `experienta` >= 3.\n- Daca ambele sunt adevarate: \"Angajat\".\n- Daca ai varsta, dar nu experienta: \"Necesita mai multa experienta\".\n- Daca nu ai varsta: \"Prea tanar\".",
+    "starterCode": "def angajare(varsta, experienta):\n    # Scrie codul tau aici\n    pass",
+    "testCases": [
+        {
+            "input": "angajare(20, 5)",
+            "expected": "\"Angajat\""
+        },
+        {
+            "input": "angajare(20, 1)",
+            "expected": "\"Necesita mai multa experienta\""
+        },
+        {
+            "input": "angajare(16, 5)",
+            "expected": "\"Prea tanar\""
+        },
+        {
+            "input": "angajare(18, 5)",
+            "expected": "\"Angajat\""
+        },
+        {
+            "input": "angajare(25, 3)",
+            "expected": "\"Angajat\""
+        },
+        {
+            "input": "angajare(30, 2)",
+            "expected": "\"Necesita mai multa experienta\""
+        },
+        {
+            "input": "angajare(17, 10)",
+            "expected": "\"Prea tanar\""
+        }
+    ]
+}

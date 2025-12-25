@@ -1,0 +1,56 @@
+{
+    "id": "calificative-scolare",
+    "title": "Calificative Scolare",
+    "description": "Se da o nota `punctaj` (0-100).\n- `punctaj >= 90`: \"Foarte Bine\"\n- `punctaj intre 70 si 89`: \"Bine\"\n- `punctaj intre 50 si 69`: \"Suficient\"\n- `punctaj < 50`: \"Insuficient\"",
+    "starterCode": "def calificativ(punctaj):\n    # Scrie codul tau aici\n    pass",
+    "testCases": [
+        {
+            "input": "calificativ(95)",
+            "expected": "\"Foarte Bine\""
+        },
+        {
+            "input": "calificativ(80)",
+            "expected": "\"Bine\""
+        },
+        {
+            "input": "calificativ(60)",
+            "expected": "\"Suficient\""
+        },
+        {
+            "input": "calificativ(40)",
+            "expected": "\"Insuficient\""
+        },
+        {
+            "input": "calificativ(90)",
+            "expected": "\"Foarte Bine\""
+        },
+        {
+            "input": "calificativ(89)",
+            "expected": "\"Bine\""
+        },
+        {
+            "input": "calificativ(70)",
+            "expected": "\"Bine\""
+        },
+        {
+            "input": "calificativ(69)",
+            "expected": "\"Suficient\""
+        },
+        {
+            "input": "calificativ(50)",
+            "expected": "\"Suficient\""
+        },
+        {
+            "input": "calificativ(49)",
+            "expected": "\"Insuficient\""
+        },
+        {
+            "input": "calificativ(0)",
+            "expected": "\"Insuficient\""
+        },
+        {
+            "input": "calificativ(100)",
+            "expected": "\"Foarte Bine\""
+        }
+    ]
+}
